@@ -8,6 +8,7 @@ p {
 }
 section {
   width: 1128px;
+  height: 500px;
   display: flex;
   margin: auto;
 }
@@ -36,6 +37,11 @@ section {
   padding: 0 10px;
   border-left: 5px solid lightcoral;
 }
+.section-title {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+}
 .anchor-btn {
   text-decoration: none;
   padding: 8px 30px;
@@ -43,4 +49,30 @@ section {
   background: linear-gradient(red, orange);
   color: azure;
   font-size: 1.25em;
+}
+#mymission {
+  flex-direction: column;
+}
+.flex-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card {
+  width: 325px;
+  padding: 20px;
+  border-radius: 15px;
+}
+.card-1 {
+  background-color: rgb(188, 239, 252);
+}
+.card-2 {
+  background-color: rgb(252, 252, 206);
+}
+.card-3 {
+  background-color: rgb(247, 217, 250);
+}
+.card img {
+  width: 126px;
+  height: auto;
 }
