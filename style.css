@@ -64,7 +64,6 @@ section {
 .card {
   width: 300px;
   padding: 20px;
-  box-shadow: 3px 3px 10px;
   border-radius: 15px;
 }
 .card-1 {
@@ -82,4 +81,13 @@ section {
 }
 .center-align {
   vertical-align: middle;
+}
+footer {
+  height: 150px;
+  color: aliceblue;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
