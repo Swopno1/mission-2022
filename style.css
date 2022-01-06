@@ -1,0 +1,46 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: azure;
+  margin: 0;
+}
+p {
+  margin: 35px 0;
+}
+section {
+  width: 1128px;
+  display: flex;
+  margin: auto;
+}
+.wide-half {
+  width: 66%;
+  padding-right: 20px;
+}
+.top-p {
+  padding-right: 50%;
+}
+.small-half {
+  width: 33%;
+  padding: 10px;
+}
+.wide-half img,
+.small-half img {
+  width: 100%;
+}
+.second-color {
+  color: lightcoral;
+}
+#main-title {
+  font-family: "DM Serif Display", serif;
+  font-size: 3em;
+  margin-top: 100px;
+  padding: 0 10px;
+  border-left: 5px solid lightcoral;
+}
+.anchor-btn {
+  text-decoration: none;
+  padding: 8px 30px;
+  border-radius: 5px;
+  background: linear-gradient(red, orange);
+  color: azure;
+  font-size: 1.25em;
+}
