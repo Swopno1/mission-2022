@@ -11,10 +11,10 @@ section {
   height: 500px;
   display: flex;
   margin: auto;
+  padding-bottom: 30px;
 }
 .wide-half {
   width: 66%;
-  padding-right: 20px;
 }
 .top-p {
   padding-right: 50%;
@@ -25,7 +25,7 @@ section {
 }
 .wide-half img,
 .small-half img {
-  width: 100%;
+  width: 90%;
 }
 .second-color {
   color: lightcoral;
@@ -44,14 +44,17 @@ section {
 }
 .anchor-btn {
   text-decoration: none;
-  padding: 8px 30px;
+  padding: 5px 20px;
   border-radius: 5px;
   background: linear-gradient(red, orange);
   color: azure;
-  font-size: 1.25em;
+  box-shadow: 1px 2px 5px;
 }
 #mymission {
   flex-direction: column;
+}
+#third-section {
+  align-items: center;
 }
 .flex-card {
   display: flex;
@@ -59,8 +62,9 @@ section {
   justify-content: space-between;
 }
 .card {
-  width: 325px;
+  width: 300px;
   padding: 20px;
+  box-shadow: 3px 3px 10px;
   border-radius: 15px;
 }
 .card-1 {
@@ -75,4 +79,7 @@ section {
 .card img {
   width: 126px;
   height: auto;
+}
+.center-align {
+  vertical-align: middle;
 }
